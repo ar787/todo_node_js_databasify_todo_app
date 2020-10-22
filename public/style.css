@@ -1,0 +1,54 @@
+#app {
+    background-color: red;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.header {
+    background-color: blue;
+    padding: 10px;
+}
+.header *{
+    font-size: 21px;
+}
+.header h1 {
+    color: #fff;
+}
+.header input {
+    width: 60%;
+}
+
+.header button {
+    width: 20%;
+    outline: none;
+    cursor: pointer;
+}
+.todos {
+    margin: 0px;
+    padding: 0px;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.todo input {
+    font-size: 21px;
+}
+
+.buttonGroup {    
+    margin-right: 5px;
+}
+
+.buttonGroup button {
+    cursor: pointer;
+}
+
+.todo * {
+    display: inline-block;
+}
